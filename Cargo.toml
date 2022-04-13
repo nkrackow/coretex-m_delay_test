@@ -15,3 +15,6 @@ rtt-target = { version = "0.3", features = ["cortex-m"] }
 [dependencies.rtt-logger]
 git = "https://github.com/quartiq/rtt-logger.git"
 rev = "70b0eb5"
+
+[patch.crates-io]
+cortex-m = { git = "https://github.com/rust-embedded/cortex-m" }
