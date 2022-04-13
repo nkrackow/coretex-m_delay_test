@@ -58,6 +58,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "delay-test"
+version = "0.1.0"
+dependencies = [
+ "cortex-m",
+ "cortex-m-rt",
+ "log",
+ "panic-halt",
+ "rtt-logger",
+ "rtt-target",
+ "stm32h7xx-hal",
+]
+
+[[package]]
 name = "embedded-dma"
 version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -193,19 +206,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-xid",
-]
-
-[[package]]
-name = "thermostat-eem"
-version = "0.1.0"
-dependencies = [
- "cortex-m",
- "cortex-m-rt",
- "log",
- "panic-halt",
- "rtt-logger",
- "rtt-target",
- "stm32h7xx-hal",
 ]
 
 [[package]]

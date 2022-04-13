@@ -1,8 +1,7 @@
 [package]
-name = "thermostat-eem"
+name = "delay-test"
 version = "0.1.0"
 edition = "2021"
-authors = ["SingularitySurfer"]
 
 [dependencies]
 cortex-m = { version = "0.7" }
